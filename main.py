@@ -18,7 +18,7 @@ st.write("Paste Nepali news text below and classify it.")
 # Load model
 # -----------------------
 BASE_DIR = Path(__file__).parent
-MODEL_PATH = BASE_DIR / "/Users/susananiroula/Desktop/LAB1/assignment 2/nb_model.joblib"
+MODEL_PATH = BASE_DIR / "nb_model.joblib"
 
 @st.cache_resource
 def load_model():
